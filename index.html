@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>João Querino | Dados, BI e IA</title>
+  <meta name="description" content="Freelancer em Dados e BI: dashboards em Power BI, SQL, Python e soluções com IA para transformar dados em decisões.">
+  <meta property="og:title" content="João Querino | Dados, BI e IA">
+  <meta property="og:description" content="Dashboards, automação de relatórios e IA aplicada aos dados da sua empresa.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#topo">JQ<span>.</span></a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#sobre">Sobre</a>
+      <a class="btn small" href="#contato">Fale comigo</a>
+    </nav>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <p class="eyebrow">Dados · BI · IA</p>
+      <h1>Transformo os dados da sua empresa em <em>decisões</em>.</h1>
+      <p class="lead">Dashboards em Power BI, consultas em SQL, automações em Python e IA aplicada, para você parar de brigar com planilhas e enxergar o negócio com clareza.</p>
+      <div class="actions">
+        <a class="btn" href="#contato">Pedir um orçamento</a>
+        <a class="btn ghost" href="#projetos">Ver projetos</a>
+      </div>
+      <ul class="badges">
+        <li>Power BI</li><li>SQL</li><li>Python</li><li>IA</li>
+      </ul>
+    </section>
+
+    <section id="servicos">
+      <h2>O que eu faço</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Dashboards e BI</h3>
+          <p>Painéis em Power BI claros e rápidos, com os indicadores que realmente importam para vender mais e gastar melhor.</p>
+        </article>
+        <article class="card">
+          <h3>Modelagem e SQL</h3>
+          <p>Organização dos seus dados, consultas otimizadas e uma base confiável para todo mundo olhar os mesmos números.</p>
+        </article>
+        <article class="card">
+          <h3>Automação com Python</h3>
+          <p>Fim dos relatórios manuais: coleta, limpeza e envio automáticos, com agendamento.</p>
+        </article>
+        <article class="card">
+          <h3>IA aplicada</h3>
+          <p>Previsão de demanda, classificação de textos e assistentes que respondem perguntas sobre os seus dados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <p class="note">Casos de exemplo com dados fictícios. Substitua pelos seus projetos reais.</p>
+
+      <article class="case">
+        <div class="case-text">
+          <span class="tag">Power BI · SQL</span>
+          <h3>Painel de vendas para e-commerce</h3>
+          <p><strong>Problema:</strong> relatórios em planilhas demoravam dias e cada área tinha um número diferente.</p>
+          <p><strong>Solução:</strong> modelo dimensional em SQL e painel com receita, ticket médio e margem por canal.</p>
+          <p><strong>Resultado:</strong> fechamento semanal de 2 dias para 10 minutos.</p>
+        </div>
+        <div class="demo" aria-label="Demonstração interativa com dados fictícios">
+          <div class="demo-head">
+            <span>Receita por canal (R$ mil)</span>
+            <div class="seg" role="group" aria-label="Período">
+              <button data-p="q1" class="on">T1</button>
+              <button data-p="q2">T2</button>
+              <button data-p="q3">T3</button>
+            </div>
+          </div>
+          <div id="bars" class="bars"></div>
+          <p class="demo-foot">Total: <strong id="total"></strong></p>
+        </div>
+      </article>
+
+      <article class="case rev">
+        <div class="case-text">
+          <span class="tag">Python · IA</span>
+          <h3>Previsão de demanda para varejo</h3>
+          <p><strong>Problema:</strong> compras baseadas em "feeling", com ruptura de estoque e excesso de produtos parados.</p>
+          <p><strong>Solução:</strong> modelo de séries temporais em Python com previsão semanal por produto.</p>
+          <p><strong>Resultado:</strong> queda de 18% nas rupturas (dado ilustrativo).</p>
+        </div>
+        <div class="demo">
+          <div class="demo-head"><span>Real vs previsto (unidades)</span></div>
+          <svg id="line" viewBox="0 0 320 150" role="img" aria-label="Gráfico de linha real versus previsto"></svg>
+          <p class="demo-foot"><span class="dot a"></span>Real <span class="dot b"></span>Previsto</p>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-text">
+          <span class="tag">Python · SQL</span>
+          <h3>Automação de relatórios financeiros</h3>
+          <p><strong>Problema:</strong> equipe financeira gastava 12 horas por mês consolidando arquivos.</p>
+          <p><strong>Solução:</strong> pipeline em Python que lê, valida e carrega os dados e gera o relatório no e-mail.</p>
+          <p><strong>Resultado:</strong> processo automático e sem erros de digitação.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-head"><span>Pipeline</span></div>
+          <ol class="flow">
+            <li>Coleta</li><li>Validação</li><li>Banco SQL</li><li>Relatório</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+
+    <section id="stack">
+      <h2>Stack</h2>
+      <div class="grid four">
+        <div class="card center"><h3>Power BI</h3><p>DAX, Power Query, modelagem</p></div>
+        <div class="card center"><h3>SQL</h3><p>Consultas, views, performance</p></div>
+        <div class="card center"><h3>Python</h3><p>Pandas, automação, APIs</p></div>
+        <div class="card center"><h3>IA</h3><p>Previsão, NLP, LLMs</p></div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p class="about">Sou o João, analista de dados e freelancer. Gosto de entender o negócio primeiro e a ferramenta depois: cada entrega nasce de uma pergunta que você precisa responder. <em>(Texto de exemplo: conte aqui sua experiência e formação.)</em></p>
+    </section>
+
+    <section id="contato" class="contact">
+      <h2>Vamos conversar?</h2>
+      <p>Conte rapidamente o que você precisa e eu respondo com uma proposta.</p>
+      <div class="actions center-a">
+        <a class="btn" href="mailto:seuemail@exemplo.com">E-mail</a>
+        <a class="btn ghost" href="https://wa.me/5500000000000">WhatsApp</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> João Querino · Dados, BI e IA</footer>
+  <script src="script.js"></script>
+</body>
+</html>
