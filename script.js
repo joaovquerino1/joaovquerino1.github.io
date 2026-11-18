@@ -49,7 +49,7 @@ const pts = (arr) =>
     })
     .join(" ");
 document.getElementById("line").innerHTML =
-  `<polyline fill="none" stroke="var(--accent)" stroke-width="2.5" points="${pts(real)}"/>` +
-  `<polyline fill="none" stroke="var(--accent2)" stroke-width="2.5" stroke-dasharray="5 4" points="${pts(prev)}"/>`;
+  `<polyline fill="none" stroke="#111" stroke-width="2.5" points="${pts(real)}"/>` +
+  `<polyline fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="5 4" points="${pts(prev)}"/>`;
 
 document.getElementById("y").textContent = new Date().getFullYear();
