@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JQ. Data Services | João Querino</title>
+  <meta name="description" content="Power BI, SQL, Python, data engineering, FP&A and applied AI. Executive dashboards and data pipelines for teams that need to decide with clarity.">
+  <meta property="og:title" content="JQ. Data Services">
+  <meta property="og:description" content="Executive dashboards, data engineering and applied AI. 5+ years in fintech, financial services and insurance.">
+  <meta property="og:type" content="website">
+  <link rel="alternate" hreflang="pt-BR" href="../">
+  <link rel="alternate" hreflang="en" href="./">
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#topo">JQ.<small>Data Services</small></a>
+    <nav>
+      <a href="#servicos">Services</a>
+      <a href="#projetos">Projects</a>
+      <a href="#processo">Process</a>
+      <a href="#sobre">About</a>
+      <a class="lang" href="../" hreflang="pt-BR" aria-label="Mudar para português">PT</a>
+      <button class="theme" type="button" aria-label="Toggle dark mode">Dark</button>
+      <a class="btn small" href="#contato">Get in touch</a>
+    </nav>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <p class="eyebrow">BI · Data engineering · FP&amp;A · AI</p>
+      <h1>Trusted data, <em>faster</em> decisions.</h1>
+      <p class="lead">I build executive dashboards, data models and pipelines that replace spreadsheets and manual reports with numbers your leadership can trust. Available in English and Portuguese.</p>
+      <div class="actions">
+        <a class="btn" href="#contato">Request a quote</a>
+        <a class="btn ghost" href="#projetos">See projects</a>
+      </div>
+      <ul class="badges">
+        <li>Power BI</li><li>SQL</li><li>Python</li><li>Microsoft Fabric</li><li>AI</li>
+      </ul>
+      <div class="stats">
+        <div><b>5+ years</b><span>in data and BI</span></div>
+        <div><b>20+</b><span>executive dashboards</span></div>
+        <div><b>200M+</b><span>rows in pipelines</span></div>
+        <div><b>Days → min</b><span>report turnaround</span></div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <h2>Services</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Executive dashboards</h3>
+          <p>Power BI reports with a few well-chosen KPIs, fast and designed for decision makers.</p>
+        </article>
+        <article class="card">
+          <h3>Modeling and DAX</h3>
+          <p>Star-schema semantic models and DAX measures that give every team the same number.</p>
+        </article>
+        <article class="card">
+          <h3>Data engineering</h3>
+          <p>ETL and ELT with SQL, Python and PySpark on Fabric, Databricks and data warehouses, with data quality built in.</p>
+        </article>
+        <article class="card">
+          <h3>FP&amp;A and finance</h3>
+          <p>P&amp;L, EBITDA, budget vs actuals and variance analysis, with business rules validated by finance.</p>
+        </article>
+        <article class="card">
+          <h3>AI and automation</h3>
+          <p>Assistants connected to your data models, report automation and AI-accelerated development.</p>
+        </article>
+        <article class="card">
+          <h3>Documentation and handoff</h3>
+          <p>Technical documentation and knowledge transfer, so your team can run everything without me.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projects</h2>
+      <p class="note">Real engagements, without client names. Charts use fictional data.</p>
+
+      <article class="case">
+        <div class="case-text">
+          <span class="tag">Power BI · DAX · Insurance</span>
+          <h3>Executive dashboards for an insurer</h3>
+          <p><strong>Problem:</strong> policy, billing and claims KPIs calculated by hand, with different numbers across teams.</p>
+          <p><strong>Solution:</strong> 20+ Power BI dashboards on star-schema models, with DAX measures and visuals designed for the board.</p>
+          <p><strong>Result:</strong> used by directors and 30+ operational users, with reports of up to 50 million records.</p>
+        </div>
+        <div class="demo" aria-label="Interactive demo with fictional data">
+          <div class="demo-head">
+            <span id="bars-title"></span>
+            <div class="seg" role="group" aria-label="Period">
+              <button data-p="q1" class="on">Q1</button>
+              <button data-p="q2">Q2</button>
+              <button data-p="q3">Q3</button>
+            </div>
+          </div>
+          <div id="bars" class="bars"></div>
+          <p class="demo-foot">Total: <strong id="total"></strong></p>
+        </div>
+      </article>
+
+      <article class="case rev">
+        <div class="case-text">
+          <span class="tag">Data engineering · SQL · PySpark</span>
+          <h3>Automated pipelines on huge datasets</h3>
+          <p><strong>Problem:</strong> manual reports that took up to 2 working days to produce.</p>
+          <p><strong>Solution:</strong> ETL pulling from big data environments, processing tables with 200M+ rows in SQL and PySpark, loading a data warehouse and publishing to Power BI.</p>
+          <p><strong>Result:</strong> from days to minutes, on demand.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-head"><span>Data flow</span></div>
+          <ol class="flow">
+            <li>Sources (big data, 200M+ rows)</li><li>SQL and PySpark transformation</li><li>Data warehouse</li><li>Power BI</li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-text">
+          <span class="tag">FP&amp;A · Microsoft Fabric · DAX</span>
+          <h3>Financial model for a global fintech</h3>
+          <p><strong>Problem:</strong> monthly close relied on an outside consultancy and on logic that was hard to maintain.</p>
+          <p><strong>Solution:</strong> star-schema semantic model on a Fabric data warehouse, with P&amp;L, EBITDA and variances in DAX using user-defined functions, plus root-cause work on source data quality, such as sign-inverted revenue.</p>
+          <p><strong>Result:</strong> the team owns the solution, with knowledge transferred and rules validated by finance.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-head"><span id="line-title"></span></div>
+          <svg id="line" viewBox="0 0 320 150" role="img"></svg>
+          <p class="demo-foot"><span class="dot a"></span><span id="lg-a"></span><span class="dot b"></span><span id="lg-b"></span></p>
+        </div>
+      </article>
+
+      <article class="case rev">
+        <div class="case-text">
+          <span class="tag">AI · MCP · Automation</span>
+          <h3>AI-assisted analytics on live data models</h3>
+          <p><strong>Problem:</strong> building and validating measures and queries was slow and repetitive.</p>
+          <p><strong>Solution:</strong> Claude connected to real semantic models through MCP to speed up DAX, SQL, Python and documentation, plus a prototype web analytics app to replace dashboards.</p>
+          <p><strong>Result:</strong> faster development, validated against the real data.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-head"><span>AI workflow</span></div>
+          <ol class="flow">
+            <li>Business question</li><li>AI connected to the model (MCP)</li><li>Validated DAX and SQL</li><li>Documented delivery</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+
+    <section id="processo">
+      <h2>How I work</h2>
+      <div class="grid four">
+        <div class="card"><h3>1. Understand</h3><p>I start from the business question and requirements before opening any tool.</p></div>
+        <div class="card"><h3>2. Model</h3><p>I organize data into a clear model, with rules validated by the people who use the numbers.</p></div>
+        <div class="card"><h3>3. Build</h3><p>Short delivery cycles, clean visuals and tested performance.</p></div>
+        <div class="card"><h3>4. Hand off</h3><p>Documentation and training so your team can carry on alone.</p></div>
+      </div>
+    </section>
+
+    <section id="stack">
+      <h2>Tools</h2>
+      <div class="grid">
+        <div class="card"><h3>BI</h3><p>Power BI, DAX, Power Query, Deneb/Vega-Lite, Tableau, Excel</p></div>
+        <div class="card"><h3>Data and cloud</h3><p>Advanced SQL, Python, PySpark, Microsoft Fabric, Databricks, Teradata, Hive</p></div>
+        <div class="card"><h3>Finance</h3><p>FP&amp;A, P&amp;L, EBITDA, budget vs actuals, variance analysis</p></div>
+        <div class="card"><h3>AI and automation</h3><p>Claude, Claude Code, LLMs, MCP, prompt engineering, process automation</p></div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>About me</h2>
+      <p class="about">I'm João Vitor Querino, a senior data and BI analyst. For 5+ years I've delivered end-to-end solutions in fintech, financial services and insurance, from requirements gathering to the published dashboard. I hold a degree in Computer Engineering and an MBA in Project Management, and I use AI daily to deliver faster without losing rigor. I work in Portuguese and advanced English.</p>
+    </section>
+
+    <section id="contato" class="contact">
+      <h2>Let's talk</h2>
+      <p>Tell me briefly what you need and I'll reply with a proposal.</p>
+      <div class="actions center-a">
+        <a class="btn" href="mailto:joaovquerino@gmail.com">Email</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/joaovquerino">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> João Vitor Querino · JQ. Data Services</footer>
+  <script src="../script.js"></script>
+</body>
+</html>
